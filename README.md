@@ -38,5 +38,3 @@ The project includes:
 ## Project Purpose
 
 The purpose of this project is to demonstrate practical skills in maternal health data management, data cleaning, descriptive analysis, and interpretation using Microsoft Excel.
-
-Kadib:
