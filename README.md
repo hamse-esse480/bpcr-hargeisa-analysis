@@ -58,6 +58,13 @@ The current README does not specify the exact item-level scoring rule or cut-off
 - Findings are descriptive and should not be interpreted as causal relationships.
 - Confirm that the workbook contains no names, phone numbers, direct identifiers, or identifiable health information before keeping it public.
 
+## Project Files & Dashboard Preview
+
+- **Dashboard preview:** [BPCR Dashboard](./Dashboard2%20.png)
+- **Excel workbook:** [Data Cleaning BPCR Workbook](./Data%20Cleaning%20BPCR%20.xlsx)
+
+The dashboard preview is stored as PNG, which is suitable for clear chart labels and text.
+
 ## Project Purpose
 
 This project demonstrates practical skills in maternal health data cleaning, validation, descriptive analysis, and interpretation using Microsoft Excel.
