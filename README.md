@@ -4,56 +4,60 @@
 
 This project presents an Excel-based descriptive analysis of Birth Preparedness and Complication Readiness (BPCR) among women in Hargeisa, Somaliland.
 
-The analysis focuses on selected maternal health characteristics, antenatal care, BPCR education, knowledge of danger signs, place of birth, and BPCR-related practices.
+The analysis covers selected demographic characteristics, antenatal care, BPCR education, knowledge of maternal danger signs, planned place of birth, and BPCR-related practices.
 
 ## Tools Used
 
 - Microsoft Excel
 
-## Dataset
+## Dataset and Variables
 
-The dataset contains information on women in Hargeisa related to:
+The workbook contains 300 respondents and includes the following variables or topic areas:
 
 - Age
-- Marital Status
+- Marital status
 - Education
 - Income
-- Antenatal Care (ANC)
-- BPCR education
-- Place of birth
-- Knowledge of maternal danger signs
-- BPCR knowledge
-- BPCR practices
+- Antenatal care (ANC)
+- BPCR health education
+- Planned place of birth
+- Knowledge of pregnancy, labor, and postpartum danger signs
+- Overall BPCR knowledge classification
+- BPCR practice classification
 
-## Analysis
+## Analysis Workflow
 
-The project includes:
-
-- Data cleaning
-- Data validation
-- Descriptive statistics
-- Frequency distributions
+- Data cleaning and validation
+- Frequency distributions and descriptive summaries
+- Summary of knowledge of maternal danger signs
 - Summary of BPCR knowledge and practices
 
 ## Key Findings
 
-- **Age:** The study included 300 respondents, with a mean age of 28.91 years and an age range of 18–43 years.
-- **Marital status:** Most respondents were married (275/300).
+- **Age:** Mean 28.91 years; range 18–43 years.
+- **Marital status:** 275 of 300 respondents were married.
 - **Education:** Primary education was the largest category (95 respondents), followed by secondary (87), tertiary (72), and no formal education (46).
-- **ANC attendance:** 82.7% (248/300) had ever attended ANC, while 17.3% had not.
-- **ANC during the last pregnancy:** 191 respondents reported attending ANC during their last pregnancy, 57 reported not attending, and 52 responses were missing.
-- **BPCR health education:** 97 respondents reported receiving BPCR health education, while 151 reported not receiving it; 52 responses were missing.
-- **Planned place of birth:** 60.3% (181/300) planned to give birth in a health institution, while 39.7% planned home delivery.
-- **Pregnancy danger signs:** 35.3% (106/300) were classified as knowledgeable, while 64.7% were not.
-- **Labor danger signs:** 28.0% (84/300) were classified as knowledgeable, while 72.0% were not.
-- **Postpartum danger signs:** 39.3% (118/300) were classified as knowledgeable, while 60.7% were not.
-- **Overall BPCR knowledge:** 38.3% (115/300) were classified as knowledgeable, while 61.7% were not.
-- **Overall BPCR practice:** 0.7% (2/300) were classified as prepared, while 99.3% were classified as not prepared according to the BPCR practice measure.
+- **ANC attendance:** 248/300 (82.7%) had ever attended ANC; 52 responses are not represented in this yes/no summary and should be checked against the workbook's missing-value coding.
+- **ANC during the last pregnancy:** 191 reported attending, 57 reported not attending, and 52 responses were missing.
+- **BPCR health education:** 97 reported receiving BPCR education, 151 reported not receiving it, and 52 responses were missing.
+- **Planned place of birth:** 181/300 (60.3%) planned a health-institution birth; 119/300 (39.7%) planned home delivery.
+- **Pregnancy danger signs:** 106/300 (35.3%) were classified as knowledgeable.
+- **Labor danger signs:** 84/300 (28.0%) were classified as knowledgeable.
+- **Postpartum danger signs:** 118/300 (39.3%) were classified as knowledgeable.
+- **Overall BPCR knowledge:** 115/300 (38.3%) were classified as knowledgeable.
+- **Overall BPCR practice:** 2/300 (0.7%) were classified as prepared, according to the project's current classification.
 
-### Overall Finding
+## Scoring and Missing Values
 
-Although most respondents had ever attended ANC (82.7%) and 60.3% planned to deliver in health institutions, overall BPCR knowledge was limited, with only 38.3% classified as knowledgeable. The BPCR practice measure classified 99.3% of respondents as not prepared.
+The current README does not specify the exact item-level scoring rule or cut-off used to classify respondents as knowledgeable/not knowledgeable or prepared/not prepared. Before interpreting these categories, document the scoring formula and threshold used in the workbook, including which danger-sign items contribute to each score. Report missing values separately from valid No responses; do not automatically treat blanks as No unless that rule was explicitly applied and justified.
+
+## Limitations
+
+- The exact sampling method, questionnaire source, and data collection dates are not documented in this README.
+- Missing responses (including the 52 missing values reported for some ANC/BPCR education fields) may affect the percentages and should be described in the analysis.
+- Findings are descriptive and should not be interpreted as causal relationships.
+- Confirm that the workbook contains no names, phone numbers, direct identifiers, or identifiable health information before keeping it public.
 
 ## Project Purpose
 
-The purpose of this project is to demonstrate practical skills in maternal health data management, data cleaning, descriptive analysis, and interpretation using Microsoft Excel.
+This project demonstrates practical skills in maternal health data cleaning, validation, descriptive analysis, and interpretation using Microsoft Excel.
