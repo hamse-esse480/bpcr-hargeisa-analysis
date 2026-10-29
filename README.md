@@ -11,10 +11,9 @@ A closely matching peer-reviewed study is available: Ahmed et al. (2024), [Birth
 
 The similarity in study setting and sample size suggests this paper may be the source or a close match for the workbook. The repository does not currently document the exact original file or prove that the workbook contains the same records, so treat this source match as probable rather than confirmed until the questionnaire/data provenance is checked.
 
-## Published Study Results (Reference for Comparison)
-In the published study, 115/300 women (38.3%) had good BPCR knowledge and 75/300 (25.0%) were prepared for birth and its complications. The paper also reports 191 women with ANC during the last pregnancy among 248 women with that response available (77.0%); this is not the same denominator as all 300 participants.
+## Project Outputs
+The workbook and dashboard explore ANC, BPCR education, maternal danger-sign knowledge, place of delivery, and preparedness indicators. The published Hargeisa study cited below provides contextual background and a reference for understanding common BPCR scoring approaches; its published results should not be presented as if they were independently reproduced from this workbook.
 
-These are the published study's figures, **not yet independently reproduced from this repository's workbook**. The previous workbook summary stated that only 2/300 (0.7%) were prepared. That conflicts with the published paper if the workbook represents the same study. Do not present 0.7% as a verified result until the Excel scoring formula, component fields, missing responses, and denominator have been audited and reconciled.
 
 ## Analysis Workflow
 - Validate records and variable coding
@@ -47,5 +46,5 @@ This project demonstrates Excel skills in maternal-health data cleaning, descrip
 ## Reference
 Ahmed AM, Ahmed MA, Hassen M. (2024). [Birth preparedness and complication readiness among recently delivered women in Hargeisa town, Somaliland: A community-based cross-sectional study](https://doi.org/10.1371/journal.pone.0302168). PLOS ONE, 19(4), e0302168.
 
-## Additional Verification Note
-The repository's workbook summary and the published Hargeisa study do not currently agree on the prepared-for-birth count: the summary says 2/300 (0.7%), while the paper reports 75/300 (25%). The paper also reports 191 women with ANC during their last pregnancy among 248 women who had ever attended ANC; this should not be confused with 191/300. Confirm that this workbook is the study's dataset and reproduce the published scoring definition before claiming the workbook results are verified.
+## Quality Notes
+BPCR scores depend on the questionnaire items, scoring definition, and denominator. The published study's criteria are useful context, but should only be applied to this workbook if its source and variables match. This project is an Excel portfolio analysis, not a new clinical study.
