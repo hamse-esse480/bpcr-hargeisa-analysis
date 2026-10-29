@@ -46,3 +46,6 @@ This project demonstrates Excel skills in maternal-health data cleaning, descrip
 
 ## Reference
 Ahmed AM, Ahmed MA, Hassen M. (2024). [Birth preparedness and complication readiness among recently delivered women in Hargeisa town, Somaliland: A community-based cross-sectional study](https://doi.org/10.1371/journal.pone.0302168). PLOS ONE, 19(4), e0302168.
+
+## Additional Verification Note
+The repository's workbook summary and the published Hargeisa study do not currently agree on the prepared-for-birth count: the summary says 2/300 (0.7%), while the paper reports 75/300 (25%). The paper also reports 191 women with ANC during their last pregnancy among 248 women who had ever attended ANC; this should not be confused with 191/300. Confirm that this workbook is the study's dataset and reproduce the published scoring definition before claiming the workbook results are verified.
