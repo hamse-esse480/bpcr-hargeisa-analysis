@@ -1,70 +1,64 @@
-# BPCR Hargeisa Analysis
+# Birth Preparedness and Complication Readiness (BPCR) Analysis — Hargeisa
 
 ## Project Overview
+An Excel-based descriptive analysis of Birth Preparedness and Complication Readiness (BPCR) among women represented in a Hargeisa dataset. The analysis covers selected demographic characteristics, antenatal care (ANC), BPCR health education, knowledge of maternal danger signs, planned place of birth, and reported preparedness practices.
 
-This project presents an Excel-based descriptive analysis of Birth Preparedness and Complication Readiness (BPCR) among women in Hargeisa, Somaliland.
-
-The analysis covers selected demographic characteristics, antenatal care, BPCR education, knowledge of maternal danger signs, planned place of birth, and BPCR-related practices.
-
-## Tools Used
-
+## Tool
 - Microsoft Excel
 
 ## Dataset and Variables
-
-The workbook contains 300 respondents and includes the following variables or topic areas:
-
-- Age
-- Marital status
-- Education
-- Income
-- Antenatal care (ANC)
+The current workbook summary describes 300 respondents. Variables or topic areas include:
+- Age, marital status, education, and income
+- ANC attendance
 - BPCR health education
 - Planned place of birth
 - Knowledge of pregnancy, labor, and postpartum danger signs
 - Overall BPCR knowledge classification
-- BPCR practice classification
+- BPCR practice/preparedness classification
+
+The source citation, questionnaire reference, data collection dates, and sampling method are not documented here. Add these details from the original study materials before interpreting the results as representative of a defined population.
 
 ## Analysis Workflow
-
 - Data cleaning and validation
 - Frequency distributions and descriptive summaries
-- Summary of knowledge of maternal danger signs
-- Summary of BPCR knowledge and practices
+- Summaries of knowledge of maternal danger signs
+- Summaries of BPCR knowledge and practice classifications
+- Review of missing responses and denominator consistency
 
-## Key Findings
+## Findings Reported in the Current Workbook Summary
+These figures are transcribed from the existing project summary and have not been independently recalculated in this README review:
 
-- **Age:** Mean 28.91 years; range 18–43 years.
-- **Marital status:** 275 of 300 respondents were married.
-- **Education:** Primary education was the largest category (95 respondents), followed by secondary (87), tertiary (72), and no formal education (46).
-- **ANC attendance:** 248/300 (82.7%) had ever attended ANC; 52 responses are not represented in this yes/no summary and should be checked against the workbook's missing-value coding.
-- **ANC during the last pregnancy:** 191 reported attending, 57 reported not attending, and 52 responses were missing.
-- **BPCR health education:** 97 reported receiving BPCR education, 151 reported not receiving it, and 52 responses were missing.
-- **Planned place of birth:** 181/300 (60.3%) planned a health-institution birth; 119/300 (39.7%) planned home delivery.
-- **Pregnancy danger signs:** 106/300 (35.3%) were classified as knowledgeable.
-- **Labor danger signs:** 84/300 (28.0%) were classified as knowledgeable.
-- **Postpartum danger signs:** 118/300 (39.3%) were classified as knowledgeable.
-- **Overall BPCR knowledge:** 115/300 (38.3%) were classified as knowledgeable.
-- **Overall BPCR practice:** 2/300 (0.7%) were classified as prepared, according to the project's current classification.
+- **Age:** Mean 28.91 years; reported range 18–43 years.
+- **Marital status:** 275/300 respondents were recorded as married.
+- **Education:** Primary 95, secondary 87, tertiary 72, and no formal education 46 (reported total: 300).
+- **ANC during the last pregnancy:** 191 Yes, 57 No, and 52 missing responses.
+- **BPCR health education:** 97 Yes, 151 No, and 52 missing responses.
+- **Planned place of birth:** 181/300 (60.3%) health institution; 119/300 (39.7%) home.
+- **Knowledge classifications:** pregnancy danger signs 106/300 (35.3%); labor danger signs 84/300 (28.0%); postpartum danger signs 118/300 (39.3%).
+- **Overall BPCR knowledge:** 115/300 (38.3%) classified as knowledgeable under the project's current scoring.
+- **Overall BPCR preparedness/practice:** 2/300 (0.7%) classified as prepared under the project's current scoring.
+
+Check every count against the workbook and ensure that each percentage uses the appropriate denominator. The 52 missing responses must not be counted as No responses.
 
 ## Scoring and Missing Values
+The scoring rule and cut-off for knowledgeable and prepared are not documented in this README. Before treating these classifications as meaningful results, add:
+1. The items included in each score
+2. How each item is coded and scored
+3. The total possible score
+4. The threshold/cut-off and its source or rationale
+5. How incomplete item responses are handled
 
-The current README does not specify the exact item-level scoring rule or cut-off used to classify respondents as knowledgeable/not knowledgeable or prepared/not prepared. Before interpreting these categories, document the scoring formula and threshold used in the workbook, including which danger-sign items contribute to each score. Report missing values separately from valid No responses; do not automatically treat blanks as No unless that rule was explicitly applied and justified.
+Do not describe the classifications as validated unless the scoring approach has supporting documentation. Separate missing or unknown values from valid No responses.
 
 ## Limitations
+- Source citation, questionnaire, data collection period, and sampling approach need documentation.
+- Missing values may affect estimates; report the denominator for every indicator.
+- Findings are descriptive and do not establish causality.
+- Before keeping the workbook public, check that it contains no names, phone numbers, or other direct identifiers.
 
-- The exact sampling method, questionnaire source, and data collection dates are not documented in this README.
-- Missing responses (including the 52 missing values reported for some ANC/BPCR education fields) may affect the percentages and should be described in the analysis.
-- Findings are descriptive and should not be interpreted as causal relationships.
-- Confirm that the workbook contains no names, phone numbers, direct identifiers, or identifiable health information before keeping it public.
-
-## Project Files & Dashboard Preview
-
-- **Dashboard preview:** [BPCR Dashboard](./Dashboard2%20.png)
-- **Excel workbook:** [Data Cleaning BPCR Workbook](./Data%20Cleaning%20BPCR%20.xlsx)
-
-The dashboard preview is stored as PNG, which is suitable for clear chart labels and text.
+## Project Files
+- [Dashboard preview](<./Dashboard2%20.png>)
+- [Excel data-cleaning workbook](<./Data%20Cleaning%20BPCR%20.xlsx>)
 
 ## Project Purpose
-
-This project demonstrates practical skills in maternal health data cleaning, validation, descriptive analysis, and interpretation using Microsoft Excel.
+This project demonstrates Excel skills in maternal-health data cleaning, descriptive analysis, scoring transparency, and careful reporting of missing data.
